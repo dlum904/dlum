@@ -1,0 +1,22 @@
+.header-nav {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  display: flex;
+  color: lightgray;
+  justify-content: space-between;
+  height: 50px;
+
+}
+
+.header-list {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 0px 0px;
+}
+
+.initials {
+  margin: 15px 0px 0px 15px;
+}
