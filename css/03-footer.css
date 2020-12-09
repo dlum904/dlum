@@ -5,6 +5,6 @@
 
 .footer-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   color: lightgray;
 }

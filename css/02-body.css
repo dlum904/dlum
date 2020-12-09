@@ -10,7 +10,7 @@
     height: 500px;
 }
 
-.aboutme {
+#aboutme {
     height: 500px;
     background-color: #131516;
 }
@@ -18,14 +18,42 @@
     display: flex;
 }
 .portrait {
-    width: 50vw;
+    width: 600px;
+    background-color: red
 
 }
 
 .description {
+    width: 1000px;
     font-size: 20px;
 }
 
-.skills {
+#skills-section {
     background-color: #333;
+    height: 500px
+}
+#skills-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.skills-container img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+#projects-section {
+    background-color: #131516;
+    height:500px
+}
+
+
+.projects-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
 }
