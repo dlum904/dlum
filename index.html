@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
-    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" type="text/css"> -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700" type="text/css">
     <link rel="stylesheet" href="css/00-reset.css" type="text/css">
     <link rel="stylesheet" href="css/01-header.css" type="text/css">
     <link rel="stylesheet" href="css/02-body.css" type="text/css">
@@ -40,9 +40,8 @@
 
     <main class="content">
         <section class="welcome">
-            welcome
             <p>Hey there, I'm Dennis.  Welcome to my portfolio</p>
-            <img src="./images/intropic.jpg" >
+            <img src="./images/night.jpg" >
         </section>
 
         <section id="aboutme">
@@ -54,8 +53,19 @@
                 </div>
                 <div class="description">
                     <p class="pitch">
-                        My name is Dennis Lum.  I am a software engineer with a background in Information Technology based in New York.  I've always thought that programming was like its own super power, which is why I am always excited to work with new technologies and create cool apps.  I'm looking for new opportunities to work in an amazing environment where I can utilize my powers and learn new skills.
+                        My name is Dennis Lum.  I am a software engineer with a background in Information Technology based in New York.    
                     </p>
+
+                    <p class="pitch">
+                        I've attended the New York City College of Technology and received a bachelor's degree in Architectural Technology.
+                        After graduating, I pursued a career in Information Technology and worked as an IT professional for over 6 years. I've recently graduated from a coding bootcamp where I combined my lT knowledge with my new love of programming.
+                    </p>
+
+                    <p class="pitch">
+                        I've always thought that programming was like its own super power, which is why I am always excited to work with new technologies and create cool apps.  I'm looking for new opportunities to work in an amazing environment where I can utilize my powers and learn new skills.
+                    </p>
+
+                    <p>check out my resume <a class="resume-link" href="https://docs.google.com/document/d/1fCvUcaAVgyZ7UUoyvnMhNKxaEhszc_AkBAfd0KSsyy4/edit?usp=sharing" target="_blank">here</a></p>
                 </div>
             </div>
         </section>
@@ -104,25 +114,27 @@
         <section id="projects-section">
             projects
             <div class="projects-container">
-                <div>
+                <div class="project">
                     <a href="https://the-gelp.herokuapp.com/">
                         <p>Gelp</p>
                         <img src="./images/gelplogo.png">
                         <p class="proj-description">A Yelp inspired single page app that allows users to search for and write reviews of businesses.</p>
+                        <p class="proj-description">Developed using React-Redux, Ruby on Rails, and PostgresSQL</p>
                     </a>
                 </div>
-                <div>
+                <div class="project">
                     <a href="http://learningispain.herokuapp.com/">
                         <p>CGDB</p>
                         <img src="./images/bramcollegeclear.png">
                         <p class="proj-description">A psychological horror themed quiz game which users provide the correct answers in order to progress.</p>
+                        <p class="proj-description">Developed using MongoDB, Express.js, React and Node.js </p>
                     </a>
                 </div>
-                <div>
+                <div class="project">
                     <a href="https://dlum904.github.io/city_escape/">
                         <p>City Escape</p>
                         <img src="./images/screenshot.png" alt="">
-                        <p class="proj-description">An endless runner sprite based game utilizing vanilla JavaScript, Canvas and CSS elements.</p>
+                        <p class="proj-description">An endless runner sprite based game utilizing pure vanilla JavaScript, Canvas and CSS elements.</p>
                     </a>
                 </div>
             </div>
@@ -131,27 +143,26 @@
         <section id="contact-section">
             contact me
             <div class="contact-container">
-                <div class="chatbubble">
-                    <img src="./images/chatbubble.png">
-                </div>
-                <div class="contact-infos">
-                    <div>email: dlum904@gmail.com</div>
-                    <div>phone: 718-570-6760</div>
-                    <div><a href="https://www.linkedin.com/in/dennis-lum-12526b7a/">linkedin</a></div>
-                    <div><a href="./images/Lum_Dennis_Resume_2020.docx" download>resume</a></div>
-                </div>
+
+                    <div class="chatbubble">
+                        <img src="./images/chatbubble.png">
+                    </div>
+                    <div class="contact-infos">
+                        <p>I am actively looking for new opportunities to use my talents.  Feel free to contact me:</p>
+                        <div>email: dlum904@gmail.com</div>
+                        <div>phone: 718-570-6760</div>
+                        <!-- <div><a href="https://www.linkedin.com/in/dennis-lum-12526b7a/">linkedin</a></div>
+                        <div><a href="./images/Lum_Dennis_Resume_2020.docx" download>resume</a></div> -->
+                    </div>
+
             </div>
         </section>
     </main>
 
     <footer class="footer">
-
-        <ul class="footer-links">
-            <li><a href="#">gitHub</a></li>
-            <li><a href="#">linkedin</a></li>
-            <li><a href="#">angelist</a></li>
-        </ul>
-
+        <a href="https://www.linkedin.com/in/dennis-lum-12526b7a/" target="_blank">Linkedin</a>
+        <a href="https://github.com/dlum904" target="_blank"> Git Hub</a>
+        <a href="https://angel.co/u/dennis-lum" target="_blank"> Angel List</a>
     </footer>
 
 </body>

@@ -8,17 +8,21 @@
 
 .welcome {
     height: 1000px;
+    background-color: black;
 }
 
 .welcome p {
     width: max-content;
     height: max-content;
-    margin: auto;
+    position: absolute;
+    left: 25%;
 }
 .welcome img {
     margin: auto;
-width: min-content;
+    height: 1000px;
+    width: auto;
 border-radius: 10px;
+overflow: hidden;
 }
 #aboutme {
     height: 1000px;
@@ -35,6 +39,9 @@ border-radius: 10px;
 
 }
 
+.pitch {
+    margin-bottom: 10px;
+}
 .description {
     margin-left: 20px;
     width: 1000px;
@@ -42,7 +49,7 @@ border-radius: 10px;
 }
 
 #skills-section {
-    /* background-color: #333; */
+    background-color: #333;
     height: 1000px
 }
 #skills-section ul {
@@ -81,8 +88,12 @@ border-radius: 10px;
 }
 .proj-description {
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
+#contact-section {
+    background-color: #333;
+}
 .contact-container {
     width: 1200px;
     height: 1000px;
@@ -91,19 +102,56 @@ border-radius: 10px;
     margin: auto;
 }
 
+.contact-container-body {
+    display: flex;
+}
 .contact-infos {
     margin: auto;
     font-size: 30px;
+}
+
+.contact-infos p {
+    margin-bottom: 10px
 }
 .chatbubble {
     margin: auto;
 }
 
-.footer {
+.chatbubble img {
+    height: 500px;
+    width: 500px;
+}
+
+.header a {
+    transition: 0.5s;
+}
+.header a:hover {
+border-bottom: 3px solid white;
+;
+}
+
+.project {
+    transition: 0.5s;
+}
+.project:hover {
+    filter: brightness(125%);
+    background-color: black;
+    border: solid 1px white;
+    border-radius: 12px;
+}
+/* .footer {
     text-align: center;
 }
 .footer-links {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+} */
+
+.resume-link {
+    color: white;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
 }
